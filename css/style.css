@@ -6,7 +6,7 @@
 	width: 95%;
 }
 
-.font-r{
+/*.font-r{
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -17,7 +17,7 @@
 .font-z{
 	font-family: 'Zilla Slab Highlight', cursive;
 	font-size: 1.3rem;
-}
+}*/
 
 a{
 	color: black;
@@ -25,34 +25,36 @@ a{
 }
 
 nav .nav-wrapper{
-	height: 140%;
+	height: 120%;
 }
 
-nav h4{
+nav h4, nav h5{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
+	width: 100%;
+	line-height: 50%;
 }
 
 nav h6{
 	font-family: 'Inconsolata', monospace;
+	font-size: 14.5px;
 }
 
 #lenguaje{
 	margin-right: 5%;
 }
 
-.nav-wrapper h4{
-	width: 500px;
-	line-height: 50%;
-}
-
 #curric{
 	font-family: 'Inconsolata', monospace;
-	height: 40px;
+	height: 30px;
 }
 
 #curric h6{
+	margin: 0;
+	line-height: 30px;
 	font-style: oblique;
+	font-size: 15px;
+	width: 100%;
 }
 
 .card-panel p{
@@ -71,7 +73,7 @@ nav h6{
 }
 
 .margin{
-	margin-top: 100px;
+	margin-top: 60px;
 }
 
 main h5{
