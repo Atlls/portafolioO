@@ -1,3 +1,12 @@
+/*ScrollBar*/
+::-webkit-scrollbar{
+	width: 7px;
+}
+::-webkit-scrollbar-thumb{
+	background-color: black;
+	border-radius: 5px;
+}
+
 .grid,.iconos{
 	text-align: center;
 }
@@ -112,6 +121,17 @@ main .titulo{
 	padding-top: 10px;
 }
 
+.card-reveal h6{
+	font-family: 'Inconsolata', monospace;
+	font-weight: 900;
+	margin-top: 0;
+}
+
+.card-reveal p{
+	height: 50px;
+	overflow: auto;
+}
+
 p{
 	color: black;
 	margin: 0;
@@ -127,4 +147,8 @@ p{
 
 footer{
 	font-family: 'Raleway', sans-serif;
+}
+
+.fab{
+	color: white;
 }
