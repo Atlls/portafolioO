@@ -149,6 +149,15 @@ footer{
 	font-family: 'Raleway', sans-serif;
 }
 
+li{
+	display: initial;
+	padding-left: 5px;
+}
+
+li p{
+	color: white;
+}
+
 .fab{
 	color: white;
 }
