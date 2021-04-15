@@ -1,14 +1,33 @@
+/*#00c853 green accent-4*/
+/*#e65100 orange darken-4*/
+/*#616161 grey darken-2
+#424242 grey darken-3
+#212121 grey darken-4*/
+/*#b9f6ca green accent-1*/
+/*#69f0ae green accent-2*/
+
 /*ScrollBar*/
 ::-webkit-scrollbar{
 	width: 7px;
 }
+
 ::-webkit-scrollbar-thumb{
 	background-color: black;
 	border-radius: 5px;
 }
 
+
+
+.card{
+	margin: 0;
+}
+
+.row .col{
+	padding: 0;
+}
+
 .grid,.iconos{
-	text-align: center;
+	text-align: right;
 }
 
 .container{
@@ -45,6 +64,7 @@ nav h4, nav h5{
 }
 
 nav h6{
+	color: #e65100;
 	font-family: 'Inconsolata', monospace;
 	font-size: 14.5px;
 }
@@ -88,10 +108,11 @@ nav h6{
 main h5{
 	font-family: 'Inconsolata', monospace;
 	font-weight: 900;
+	margin-bottom: 0;
 }
 
 .card .card-image .card-title{
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Zilla Slab Highlight', monospace;
 	right: 0;
 	padding-bottom: 10px;
 	font-weight: 500;
@@ -116,7 +137,7 @@ main .titulo{
 	height: 100px;
 }
 .card .card-reveal{
-	background-color: rgba(238,238,238,0.75);
+	background-color: rgba(221, 44, 0,0.85);
 	overflow: hidden;
 	padding-top: 10px;
 }
@@ -125,11 +146,25 @@ main .titulo{
 	font-family: 'Inconsolata', monospace;
 	font-weight: 900;
 	margin-top: 0;
+	color: #ff6e60;
 }
 
 .card-reveal p{
-	height: 50px;
+	height: 55px;
 	overflow: auto;
+	color: #ff9e80;
+}
+
+.card-reveal p::-webkit-scrollbar-thumb{
+	background-color: #ff6e40;
+}
+
+.card-reveal i{
+	color: #424242;
+}
+
+.iconos i{
+	margin-top: 7px;
 }
 
 p{
@@ -137,27 +172,21 @@ p{
 	margin: 0;
 }
 
-.card{
-	margin: 0;
-}
-
-.row .col{
-	padding: 0;
-}
-
 footer{
 	font-family: 'Raleway', sans-serif;
+}
+
+footer i{
+	font-size: 40px;
+	color: #ff3d00;
+}
+
+li p{
+	color: #dd2c00;
+	font-weight: 900;
 }
 
 li{
 	display: initial;
 	padding-left: 5px;
-}
-
-li p{
-	color: white;
-}
-
-.fab{
-	color: white;
 }
