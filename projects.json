@@ -1,0 +1,56 @@
+[
+	[
+		"Personales",
+		{
+			"titulo": "Proyecto 1",
+			"img":"img/1.jpg",
+			"descripcion": "",
+			"link":"#"
+		},
+		{
+			"titulo": "Proyecto 2",
+			"img":"img/3.jpg",
+			"descripcion": "",
+			"link":"#"
+		},
+		{
+			"titulo": "Proyecto 3",
+			"img":"img/4.jpg",
+			"descripcion": "",
+			"link":"#"
+		},
+		{
+			"titulo": "Proyecto 4",
+			"img":"img/2.jpg",
+			"descripcion": "",
+			"link":"#"
+		}
+	],
+	[
+		"Prásticas",
+		{
+			"titulo": "Proyecto 1",
+			"img":"img/2.jpg",
+			"descripcion": "",
+			"link":"#"
+		},
+		{
+			"titulo": "Proyecto 2",
+			"img":"img/1.jpg",
+			"descripcion": "",
+			"link":"#"
+		},
+		{
+			"titulo": "Proyecto 3",
+			"img":"img/3.jpg",
+			"descripcion": "",
+			"link":"#"
+		},
+		{
+			"titulo": "Proyecto 4",
+			"img":"img/4.jpg",
+			"descripcion": "",
+			"link":"#"
+		}
+	]
+]
