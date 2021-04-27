@@ -20,7 +20,7 @@ class Interface {
 		// Variable de inyeción.
 		let out = '';
 
-		projects.forEach( objProjects => 
+		projects.forEach( objProjects =>
 		{
 			// Denominación de los proyecto.
 			out += `
@@ -47,11 +47,11 @@ class Interface {
 							</div>
 							<div class="card-reveal">
 								<div class="row">
-									<div class="col s10">
+									<div class="col s11">
 										<h6>${project.titulo}</h6>
 										<p>${project.descripcion}</p>
 									</div>
-									<div class="col s2 iconos">
+									<div class="col s1 iconos">
 										<span class="card-title"><i class="fas fa-times-circle small"></i></span>
 										<a href="${project.link}"><i class="fas fa-arrow-alt-circle-right small"></i></a>
 									</div>
@@ -68,7 +68,7 @@ class Interface {
 				</div>
 			`;
 
-			console.log(out);
+			// console.log(out);
 		});
 
 		// Cierre del container.
